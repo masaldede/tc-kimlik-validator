@@ -220,7 +220,7 @@ class TCKimlikValidatorGUI:
         
         valid_numbers, invalid_numbers = self.find_tc_numbers_in_text(text)
         
-        # Prepare results
+        # Prepare results 
         results = []
         results.append(f"=== TC Kimlik Analysis Results ===")
         results.append(f"Analysis Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -254,7 +254,7 @@ class TCKimlikValidatorGUI:
         self.results_area.delete('1.0', tk.END)
         self.results_area.insert('1.0', '\n'.join(results))
         
-        # Store results for saving
+        # Store results for saving 
         self.last_analysis_results = {
             'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             'valid_numbers': valid_numbers,
