@@ -8,12 +8,12 @@ A Python GUI application for validating Turkish TC Kimlik numbers (Turkish Ident
 
 ## Features
 
-- ✅ **Single TC Number Validation**: Real-time validation with visual feedback
-- 📄 **Bulk Text Analysis**: Analyze large texts and files for TC numbers
-- 📊 **Detailed Results**: Comprehensive analysis with statistics
-- 💾 **File Operations**: Load from and save results to files
-- 🎨 **User-friendly GUI**: Clean, intuitive interface with Tkinter
-- ⚡ **Real-time Feedback**: Instant validation as you type
+- **Single TC Number Validation**: Real-time validation with visual feedback
+- **Bulk Text Analysis**: Analyze large texts and files for TC numbers
+- **Detailed Results**: Comprehensive analysis with statistics
+- **File Operations**: Load from and save results to files
+- **User-friendly GUI**: Clean, intuitive interface with Tkinter
+- **Real-time Feedback**: Instant validation as you type
 
 ## Screenshots
 
